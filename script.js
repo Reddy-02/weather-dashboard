@@ -1,4 +1,4 @@
-const apiKey = "aa1cc9e7f14d3e8489951efc9d229946"; // Your new key
+const apiKey = "Your new key"; // Your new key
 
 // DOM Elements
 const locationEl = document.getElementById('location');
