@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Weather Dashboard</h1>
+        <div class="theme-toggle">
+            <i class="fa-solid fa-sun" id="theme-icon"></i>
+        </div>
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="current-weather">
+            <h2 id="location">Loading...</h2>
+            <p id="description"></p>
+            <div class="temp">
+                <span id="temperature"></span>°C
+            </div>
+            <div class="weather-icon">
+                <img id="icon" src="" alt="weather icon">
+            </div>
+            <div class="details">
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind: <span id="wind"></span> m/s</p>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-cards" id="forecast-cards"></div>
+        </section>
+
+        <section class="hourly-chart">
+            <h2>Next 12 Hours Forecast</h2>
+            <canvas id="hourlyChart"></canvas>
+        </section>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
