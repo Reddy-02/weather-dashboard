@@ -2,8 +2,6 @@
 
 A modern, interactive Weather Dashboard that brings real-time weather data to life. Designed for simplicity, usability, and accessibility, this project allows anyone to check and understand the weather instantly — whether on desktop, tablet, or mobile.
 
-![Weather Dashboard Preview](add-your-screenshot-or-gif-here)
-
 ---
 
 ## 🌟 Key Features
